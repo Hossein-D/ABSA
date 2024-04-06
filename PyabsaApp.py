@@ -16,8 +16,8 @@ filename = "New_York_restaurant_aspects_range_"
    
 #print(len(data))
 #print(len(combined_dict))
-#with open(filename+f"0to{50*lastN}.json", 'r') as file:
-#    total_data = json.load(file)
+with open(filename+f"0to{50*lastN}.json", 'r') as file:
+    total_data = json.load(file)
 #print(len(total_data))
 
 
@@ -271,7 +271,7 @@ def combine_aspects(data):
     return new_data               
 
 #combine_data0 = combine_aspects(data0)
-#combine_data = combine_aspects(total_data)
+combine_data = combine_aspects(total_data)
 
 
 # In[171]:
@@ -286,8 +286,8 @@ def combine_aspects(data):
 
 #with open(f"total_combined_restaurant_businessdata_0to{50*lastN}.json", "w") as fp:
 #    json.dump(combine_data, fp)
-with open(f"total_combined_restaurant_businessdata_0to{50*lastN}.json", "r") as fp:
-    combine_data = json.load(fp)    
+#with open(f"total_combined_restaurant_businessdata_0to{50*lastN}.json", "r") as fp:
+#    combine_data = json.load(fp)    
 #len(combine_data)
 
 
