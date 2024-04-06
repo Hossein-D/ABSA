@@ -218,8 +218,8 @@ def aspectExtractor(businessrevdata, keycnt1=0, keycnt2=0, generator=None, filen
     return Aspects, Aspects_compress
         
 #extracted_aspects = aspectExtractor(businessrevdata, generator)
-with open("total_restaurant_businessdata.json", "r") as fp:
-    total_reviews = json.load(fp)
+#with open("total_restaurant_businessdata.json", "r") as fp:
+#    total_reviews = json.load(fp)
 
 #for i in range(0, 50):
 #    extracted_aspects, comp_extracted_aspects = aspectExtractor(total_reviews, 50*i, 50*(i+1), None, 'New_York_restaurant')
