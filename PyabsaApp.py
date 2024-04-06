@@ -225,7 +225,7 @@ def aspectExtractor(businessrevdata, keycnt1=0, keycnt2=0, generator=None, filen
 #    extracted_aspects, comp_extracted_aspects = aspectExtractor(total_reviews, 50*i, 50*(i+1), None, 'New_York_restaurant')
 
 
-# In[179]:
+# In[196]:
 
 
 import copy
@@ -271,7 +271,7 @@ def combine_aspects(data):
     return new_data               
 
 #combine_data0 = combine_aspects(data0)
-combine_data = combine_aspects(total_data)
+#combine_data = combine_aspects(total_data)
 
 
 # In[171]:
@@ -281,13 +281,13 @@ combine_data = combine_aspects(total_data)
 #combine_data[list(combine_data)[0]]
 
 
-# In[180]:
+# In[197]:
 
 
 #with open(f"total_combined_restaurant_businessdata_0to{50*lastN}.json", "w") as fp:
 #    json.dump(combine_data, fp)
-#with open(f"total_combined_restaurant_businessdata_0to{50*lastN}.json", "r") as fp:
-#    combine_data = json.load(fp)    
+with open(f"total_combined_restaurant_businessdata_0to{50*lastN}.json", "r") as fp:
+    combine_data = json.load(fp)    
 #len(combine_data)
 
 
