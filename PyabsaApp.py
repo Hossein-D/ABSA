@@ -24,7 +24,7 @@ filename = "New_York_restaurant_aspects_range_"
 # In[177]:
 
 
-#%pip install inflect
+%pip install inflect
 
 #"""
 #combined_dict = defaultdict()
