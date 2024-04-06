@@ -368,7 +368,7 @@ def find_top_rataings_gmap_ids(data, aspect, top_n=5):
 #results
 
 
-# In[195]:
+# In[200]:
 
 
 import streamlit as st
@@ -394,8 +394,8 @@ def search_locations(keyword, top_n=5):
     return sorted(matches.items(), key=lambda x: x[0])[:top_n]
 
 # Streamlit app
-intro = "    Welcome to our innovative platform, where we specialize in aspect-based sentiment analysis to transform the way you discover restaurants through Google reviews. In the vast sea of dining options and customer opinions, finding the perfect restaurant that matches your specific preferences can be overwhelming. Our advanced technology delves into the nuances of customer feedback, dissecting reviews to evaluate sentiments related to distinct aspects of dining experiences, such as food quality, service, ambiance, and more. By focusing on these details, we provide personalized restaurant recommendations that align perfectly with your desired dining feature, be it gourmet cuisine, exceptional service, or a cozy atmosphere. \
-\n\
+intro = "    Welcome to our innovative platform, where we specialize in aspect-based sentiment analysis to transform the way you discover restaurants through Google reviews for New York. In the vast sea of dining options and customer opinions, finding the perfect restaurant that matches your specific preferences can be overwhelming. Our advanced technology delves into the nuances of customer feedback, dissecting reviews to evaluate sentiments related to distinct aspects of dining experiences, such as food quality, service, ambiance, and more. By focusing on these details, we provide personalized restaurant recommendations that align perfectly with your desired dining feature, be it gourmet cuisine, exceptional service, or a cozy atmosphere. \
+\n\n\
     Utilizing cutting-edge natural language processing algorithms, our system meticulously analyzes and interprets the sentiments expressed in Google reviews, offering you a curated list of restaurants that excel in the aspect you value most. Whether you're craving the best sushi in town or seeking a place with an enchanting view, our platform simplifies your search and guides you to the ideal spot. Alongside each recommendation, you'll find essential details including the restaurant's address and its precise location on the map, making your dining adventure effortless and enjoyable. Embark on a gastronomic journey with us, where your preferences lead the way to exceptional culinary experiences."
 
 def main():
@@ -437,6 +437,12 @@ if __name__ == "__main__":
     main()
 #!jupyter nbconvert --to script PyabsaApp.ipynb
 #search_locations('New York', top_n=5)
+
+
+# In[201]:
+
+
+#print(intro)
 
 
 # In[186]:
