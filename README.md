@@ -1,2 +1,1 @@
-In this folder, results of applying aspect-based sentiment analysis to New York restaurant google reviews alongside a Streamlit 
-application which provides a recommendation system to present these results is provided. 
+In this project, we demonstrate the results of applying an aspect-based sentiment analysis algorithm to New York restaurant google reviews. The final product is a Streamlit application which provides a recommendation system to search among the restaurants according to some desired aspect. 
